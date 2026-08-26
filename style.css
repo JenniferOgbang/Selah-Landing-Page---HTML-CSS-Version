@@ -70,7 +70,7 @@ header {
     }
 
 .hero h1 {
-    font-size: (80px);
+    font-size: 80px;
     line-height: 0.95;
     margin-bottom: 30px;
     }
@@ -204,7 +204,7 @@ header {
 .cta-section {
     text-align: center;
     padding: 100px 7%;
-    background-color: #1;
+    background-color: #1E1E1E;
     color: white;
     }
 
@@ -215,7 +215,7 @@ header {
 
 .cta-section p {
     margin-bottom: 30px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .cta-section .primary-button {
@@ -229,8 +229,8 @@ footer {
     padding: 30px 7%;
     text-align: center;
     background-color: #1E1E1E;
-    color: #000000;
-    border-top: 1px solid #red;
+    color: #ffffff;
+    border-top: 1px solid #444444;
     }
 
 
