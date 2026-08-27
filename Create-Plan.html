@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Study Plan - Selah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header (same as homepage) -->
+    <header>
+        <div class="logo">Selah</div>
+
+        <nav class="nav-links">
+            <a href="index.html#home">Home</a>
+            <a href="study.html">Bible Study</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <a href="create-plan.html" class="header-button">Create a Plan</a>
+    </header>
+
+
+    <main>
+        <!-- Page intro -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Custom Study</p>
+                <h1>Build your own<span>study plan.</span></h1>
+                <p class="hero-text">
+                    Choose a book, set your pace, invite a friend
+                    to join you, and set a reminder to stay consistent.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Create Plan Form -->
+        <section class="study-section">
+            <div class="section-heading">
+                <p class="eyebrow">New Plan</p>
+                <h2>Set up your study.</h2>
+            </div>
+
+            <form class="plan-form">
+
+                <label for="book">Book of the Bible</label>
+                <select id="book" name="book">
+                    <option value="">Choose a book</option>
+                    <option value="john">John</option>
+                    <option value="psalms">Psalms</option>
+                    <option value="james">James</option>
+                    <option value="galatians">Galatians</option>
+                    <option value="genesis">Genesis</option>
+                    <option value="proverbs">Proverbs</option>
+                </select>
+
+                <label for="duration">Study Length</label>
+                <select id="duration" name="duration">
+                    <option value="">Choose a duration</option>
+                    <option value="7">7 Days</option>
+                    <option value="21">21 Days</option>
+                    <option value="30">30 Days</option>
+                </select>
+
+                <label for="invite">Invite a Friend (optional)</label>
+                <input type="email" id="invite" name="invite" placeholder="friend@example.com">
+
+                <label for="reminder">Reminder Time</label>
+                <input type="time" id="reminder" name="reminder">
+
+                <button type="submit" class="primary-button">Create Plan</button>
+
+            </form>
+        </section>
+    </main>
+
+
+    <!-- Footer (same as homepage) -->
+    <footer id="contact">
+        <p>© 2026 Selah. Built for deeper study.</p>
+    </footer>
+
+</body>
+</html>
