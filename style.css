@@ -312,3 +312,61 @@ footer {
         font-size: 40px;
         }
 }
+
+
+
+
+
+
+/* CREATE STUDY PLAN */
+/* PLAN FORM */
+.plan-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 8px;
+    }
+
+.plan-form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    }
+
+.plan-form select,
+.plan-form input {
+    padding: 12px 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #1E1E1E;
+    background-color: #ffffff;
+    }
+
+.plan-form select:focus,
+.plan-form input:focus {
+    outline: none;
+    border-color: #1E1E1E;
+    }
+
+.plan-form button {
+    margin-top: 25px;
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .plan-form {
+        max-width: 100%;
+        }
+
+    .plan-form button {
+        align-self: stretch;
+        text-align: center;
+        }
+}
+
+
